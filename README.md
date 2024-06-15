@@ -16,6 +16,10 @@ Color Picker is a simple Chrome extension that enables users to pick any color f
 - The Hex code of the selected color will be displayed and automatically copied to the clipboard.
 
 ## Example
- - ![View the Extension](view-extension.png)
- - ![Picking a Color](picking-color.png)
- - ![Hex Code Copied](hex-copied.img)
+
+### View the Extension
+![View the Extension](view-extension.png)
+### Picking a Color
+![Picking a Color](picking-color.png)
+### Hex Code Copied
+![Hex Code Copied](hex-copied.png)
