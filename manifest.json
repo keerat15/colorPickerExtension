@@ -1,0 +1,31 @@
+{
+    "name": "Color picker",
+    "description": "A Color Picker Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "./Popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "./contentScript.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "img1.png",
+        "32": "img2.png",
+        "48": "img3.png"
+    }
+}
